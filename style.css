@@ -1,0 +1,301 @@
+::selection {
+					opacity: 0;
+				}
+
+				h1 {
+					font-weight: normal;
+					font-family: georgia;
+					font-size: 12px;
+					color: white;
+					text-shadow: 1px 1px 4px #000000;
+				}
+
+				h3 {
+					color: #008ef1;
+				}
+
+				h3:hover {
+					text-decoration: underline;
+				}
+
+				h4 {
+					font-weight: normal;
+					font-family: georgia;
+					font-size: 12px;
+					color: white;
+				}
+
+				body {
+					background-image: url(https://lolstatic-a.akamaihd.net/frontpage/apps/prod/rg-league-display-2017/pt_BR/cb24025fade09e3f965776440dffcc65024d3266/assets/img/content/splash/content-original-championillustrations-group-slashes.jpg);
+					background-repeat: no-repeat;
+					background-position: top;
+					color: white;
+					margin: 0px;
+					font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+				}
+
+				.wrapper {
+					background-image: url(https://i.imgur.com/xKkoOiJ.png);
+					background-repeat: no-repeat;
+					background-position: bottom;
+					position: fixed;
+					top: 50%;
+					left: 50%;
+					margin-left: -616px;
+					margin-top: -396px;
+					width: 1233px;
+					height: 778px;
+					background-color: #2e3443;
+					border-radius: 4px;
+					-webkit-box-shadow: 0px 0px 7px rgba(255,255,255,0.4),
+                    inset 0px 0px 1px rgba(0,0,0,1),
+                    5px 5px 20px black;
+				}
+
+				.wrapper_top {
+					border-radius: 4px;
+					width: 1231px;
+					height: 21px;
+					background-image: url(https://i.imgur.com/rMxx641.png);
+
+
+				}
+
+				.wrapper_inside {
+					background-image: url(https://images7.alphacoders.com/536/thumb-1920-536426.png);
+					background-position: center;
+					background-repeat: no-repeat;
+					width: 1215px;
+					height: 717px;
+					border-radius: 5px;
+					margin: 0px auto;
+					animation:move 2s infinite;
+					-webkit-animation:move 2s infinite;
+					-webkit-box-shadow: 0px 0px 7px rgba(255,255,255,0.4),
+                    inset 0px 0px 1px rgba(0,0,0,1);
+        
+				}
+
+				.logo {
+					width: 372px;
+					height: 198px;
+					margin-left: 70px;
+					background-image: url(https://i.imgur.com/dZ4KXSs.png);
+					background-repeat: no-repeat;
+					background-position: bottom;
+					margin-bottom: 10px;
+				}
+				/* Login screen alku */
+
+				.login_wrapper {
+					background: -moz-linear-gradient(top,  rgba(12,25,43,0.92) 0%, rgba(0,2,7,0.91) 100%);
+					background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(12,25,43,0.92)), color-stop(100%,rgba(0,2,7,0.91)));
+					background: -webkit-linear-gradient(top,  rgba(12,25,43,0.92) 0%,rgba(0,2,7,0.91) 100%);
+					background: -o-linear-gradient(top,  rgba(12,25,43,0.92) 0%,rgba(0,2,7,0.91) 100%);
+					background: -ms-linear-gradient(top,  rgba(12,25,43,0.92) 0%,rgba(0,2,7,0.91) 100%);
+					background: linear-gradient(to bottom,  rgba(12,25,43,0.92) 0%,rgba(0,2,7,0.91) 100%);
+					filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eb0c192b', endColorstr='#e8000207',GradientType=0 );
+					border-radius: 2px;
+					border-style: solid;
+					border-width: 1px;
+					width: 378px;
+					height: 350px;
+					margin-left: 70px;
+					border-color: rgba(255,255,255,0.4);
+					-webkit-box-shadow:  4px 4px 10px  rgba(0, 0, 0, 0.5);
+			        box-shadow:  4px 4px 10px  rgba(0, 0, 0, 0.5);
+				}
+
+				hr {
+					
+					border: 0;
+					box-shadow: 0px 1px 1px rgba(255,255,255,0.3);
+				    height: 2px;
+				    width: 90%;
+				    background: -moz-radial-gradient(center, ellipse cover,  rgba(0,0,0,1) 0%, rgba(0,0,0,0.06) 67%, rgba(0,0,0,0) 71%);
+					background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,rgba(0,0,0,1)), color-stop(67%,rgba(0,0,0,0.06)), color-stop(71%,rgba(0,0,0,0)));
+					background: -webkit-radial-gradient(center, ellipse cover,  rgba(0,0,0,1) 0%,rgba(0,0,0,0.06) 67%,rgba(0,0,0,0) 71%);
+					background: -o-radial-gradient(center, ellipse cover,  rgba(0,0,0,1) 0%,rgba(0,0,0,0.06) 67%,rgba(0,0,0,0) 71%);
+					background: -ms-radial-gradient(center, ellipse cover,  rgba(0,0,0,1) 0%,rgba(0,0,0,0.06) 67%,rgba(0,0,0,0) 71%);
+					background: radial-gradient(ellipse at center,  rgba(0,0,0,1) 0%,rgba(0,0,0,0.06) 67%,rgba(0,0,0,0) 71%);
+					filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#00000000',GradientType=1 );
+				}
+
+				.login_top {
+					width: 325px;
+					margin: 20px auto;
+					
+				}
+
+				input ::selection {
+					background: #549CFF;
+				}
+
+				.login_middle input {
+					border-width: 1px solid;
+					border-color: #afafaf;
+					width: 100%;
+					margin: 1px;
+					height: 23px;
+					outline: none;
+					color: #272727;
+					font-weight: bold;
+					font-family: georgia;
+
+				}
+
+				.login_middle {
+					width: 325px;
+					margin: 2px auto;
+				}
+
+				button {
+					color:#ffffff;
+					font-family: georgia;
+					cursor: pointer;
+					font-size: 13px;
+					margin-top: 18px;
+					margin-bottom: 23px;
+					height: 27px;
+					width: 96px;
+					float: right;
+					background: rgb(252,227,0);
+					background: -moz-linear-gradient(top,  rgba(252,227,0,1) 0%, rgba(173,59,5,1) 100%);
+					background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(252,227,0,1)), color-stop(100%,rgba(173,59,5,1)));
+					background: -webkit-linear-gradient(top,  rgba(252,227,0,1) 0%,rgba(173,59,5,1) 100%);
+					background: -o-linear-gradient(top,  rgba(252,227,0,1) 0%,rgba(173,59,5,1) 100%);
+					background: -ms-linear-gradient(top,  rgba(252,227,0,1) 0%,rgba(173,59,5,1) 100%);
+					background: linear-gradient(to bottom,  rgba(252,227,0,1) 0%,rgba(173,59,5,1) 100%);
+					filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fce300', endColorstr='#ad3b05',GradientType=0 );
+					border-radius: 4px;
+					border-width: 0px;
+					box-shadow: inset 0px 1px 0px rgba(255,255,255,0.3),
+						inset 0px 0px 10px rgba(255,255,255,0.5),
+						5px 5px 15px rgba(0,0,0,0.5);
+				}
+
+				.login_bottom {
+					width: 325px;
+					height: 100px;
+					margin: 10px auto;
+				}
+
+				/* Login screen loppu */
+
+				.playfree {
+					width: 372px;
+					height: 15px;
+					margin-top: -5px;
+					margin-left: 70px;
+					text-shadow: 0px 0px 5px #000000;
+					text-decoration: none;
+				}
+
+				.playfree:hover {
+					text-decoration: underline;
+					cursor: pointer;
+				}
+
+				a {
+					text-decoration: none;
+				}
+				a:link {
+					color:none;
+					}      /* unvisited link */
+
+				a:visited {
+					color:inherit;
+					}  /* visited link */
+
+				a:hover {
+					color:none;
+					}  /* mouse over link */
+
+				a:active {
+					color:none;
+					}  /* selected link */
+
+				.vernumber {
+					float: left;
+					width: 1223px;
+					height: 19px;
+					margin-left: 10px;
+					color: grey;
+					font-size: 9px;
+					font-weight: normal;
+					margin-top: 5px;
+				}
+
+				.hide {
+					
+					text-shadow: 0px 0px 2px #000000;
+					cursor: pointer;
+					color: #dbc274;
+					float: right;
+					margin-right: 5px;
+					margin-top: -5px;
+					font-size: 14px;
+
+				}
+
+				.close {
+					font-family: georgie;
+					
+					text-shadow: 0px 0px 2px #000000;
+					cursor: pointer;
+					color: #dbc274;
+					float: right;
+					margin-right: 10px;
+					margin-top: -5px;
+					font-size: 17px;
+				}
+
+				.reuna {
+					background-image: url(https://i.imgur.com/rlNWUAl.png);
+					margin: 0px auto;
+					width: 1233px;
+					height: 717px;
+				}
+
+				.wrapper_bottom {
+					margin-top: 30px;
+					width: 1215px;
+					height: 100px;
+					
+				}
+
+				.riotlogo {
+					float: left;
+					width: 100px;
+					height: 100px;
+					background-image: url(https://i.imgur.com/XVoZgQF.png);
+					background-position: center;
+					background-repeat: no-repeat;
+
+				}
+
+				.terms {
+					margin-left: 10px;
+					width: 200px;
+					height: 100px;
+					float: left;
+					font-size: 12px;
+					font-family: georgia;
+					
+					text-shadow: 0px 0px 4px #000000; 
+				}
+
+				.terms input {
+					text-decoration: none; 
+				}
+
+
+
+				.pvpnet {
+					width: 117px;
+					height: 100px;
+					background-image: url(https://dl.dropbox.com/u/70717047/LolPictures/pvpnet.png);
+					float: right;
+					background-position: bottom;
+					background-repeat: no-repeat;
+				}
